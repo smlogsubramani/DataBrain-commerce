@@ -56,9 +56,8 @@ const FilterAndSortPage = () => {
         return 0;
       }
     });
-
     setFilteredDresses(sortedDresses);
-  }, [sortOption]);
+  }, [sortOption,filteredDresses]);
 
   // data render in ui 
   return (

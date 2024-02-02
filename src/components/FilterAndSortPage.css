@@ -33,6 +33,7 @@ nav{
     border: 1px solid #ccc;
     padding: 10px;
     text-align: center;
+    box-shadow: 2px 2px 2px rgb(157, 157, 157);
 }
 .image-style {
     width: 100%;

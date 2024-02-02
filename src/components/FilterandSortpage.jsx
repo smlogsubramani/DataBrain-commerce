@@ -2,12 +2,24 @@ import React, { useState, useEffect } from 'react';
 import image1 from '../assests/img1.jpg';
 import image2 from '../assests/img2.jpg';
 import image3 from '../assests/img3.jpg';
+import image4 from '../assests/casualshirt.jpeg';
+import image5 from '../assests/casualtrouser.jpeg';
+import image6 from '../assests/hoodie.jpeg';
+import image7 from '../assests/vesti.jpeg';
+import image8 from '../assests/saree.jpeg';
+import image9 from '../assests/turban.jpeg';
 
 import './FilterAndSortPage.css';
 const dressesData = [
   { id: 1, name: 'Casual Pants', price: 29.99, category: 'Casual', image: image1 },
   { id: 2, name: 'Party Wear', price: 49.99, category: 'Party', image: image2 },
   { id: 3, name: 'Formal Wear', price: 79.99, category: 'Formal', image: image3 },
+  { id: 4, name: 'Casual shirt', price: 69.99, category: 'Casual', image: image4 },
+  { id: 5, name: 'Casual trouser', price: 39.99, category: 'Casual', image: image5 },
+  { id: 6, name: 'Hoodie', price: 109.99, category: 'Party', image: image6 },
+  { id: 7, name: 'vesti', price: 16.99, category: 'Ethinic', image: image7 },
+  { id: 8, name: 'Saree', price: 269.99, category: 'Ethinic', image: image8 },
+  { id: 9, name: 'turbans', price: 19.99, category: 'Accessories', image: image9 },
   
 ];
 
